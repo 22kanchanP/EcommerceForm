@@ -1,0 +1,27 @@
+div{
+    display : flex;
+}
+
+nav{
+    padding : 20px;
+    list-style: none;
+}
+
+h4{
+    color : white;
+}
+
+.footer a{
+    color : rgb(129, 125, 125) ;
+    text-decoration : none;
+    
+    
+}
+
+.footer a:hover{
+    color: black;  
+}
+
+li{
+    list-style: none;
+}

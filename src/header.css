@@ -1,0 +1,22 @@
+
+
+.header a{
+    
+    color : grey;
+    float : right;
+    font-weight: bold;
+
+   padding-left: 30px;
+   
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+ 
+}
+
+.header a:hover{
+    color: black; 
+   
+}
+

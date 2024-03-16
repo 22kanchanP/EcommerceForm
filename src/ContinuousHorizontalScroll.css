@@ -1,0 +1,29 @@
+.continuous-horizontal-scroll {
+    margin-top: 150px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    display: flex;
+    animation: scroll 50s linear infinite; /* Adjust duration and timing function */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .image-container img {
+    flex: 0 0 auto;
+    width: 30%;
+    height : 250px;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+  }
